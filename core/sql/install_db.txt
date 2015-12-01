@@ -1,0 +1,22 @@
+** / qdb.tld URL Shortener
+** / db.sql
+
+[What does this file do?]
+
+This file contains the create statements for the database
+used in this script. By uploading/executing this the database
+will be created.
+
+[How do I run this file?]
+
+1. Upload db.sql to your webserver through FTP
+2. Go to PHPmyadmin
+3. Execute the file
+
+ALT.
+
+1. Open this file with a texteditor
+2. Copy the contents
+3. Open PHPmyadmin
+4. Paste it in the SQL box
+5. Execute!

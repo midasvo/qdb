@@ -1,0 +1,141 @@
+/*
+Script made by:
+			Midas van Oene // http://midasvo.nl
+*/
+
+body {
+	margin-top: 15%;
+	text-align: center;
+	background-color: #89AFF5;
+}
+
+section {
+	-webkit-box-shadow: 2px -17px 22px rgba(147, 136, 168, 0.36);
+	-moz-box-shadow:    2px -17px 22px rgba(147, 136, 168, 0.36);
+	box-shadow:         2px -17px 22px rgba(147, 136, 168, 0.36);
+	width: 500px;
+	height: 70px;
+	
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: auto;
+	/* IE10 Consumer Preview */ 
+	background-image: -ms-linear-gradient(top right, #2B79AD 0%, #024A7A 100%);
+	/* Mozilla Firefox */ 
+	background-image: -moz-linear-gradient(top right, #2B79AD 0%, #024A7A 100%);
+	/* Opera */ 
+	background-image: -o-linear-gradient(top right, #2B79AD 0%, #024A7A 100%);
+	/* Webkit (Safari/Chrome 10) */ 
+	background-image: -webkit-gradient(linear, right top, left bottom, color-stop(0, #2B79AD), color-stop(1, #024A7A));
+	/* Webkit (Chrome 11+) */ 
+	background-image: -webkit-linear-gradient(top right, #2B79AD 0%, #024A7A 100%);
+	/* W3C Markup, IE10 Release Preview */ 
+	background-image: linear-gradient(to bottom left, #2B79AD 0%, #024A7A 100%);
+	
+	-webkit-border-radius: 180px;
+	-moz-border-radius: 180px;
+	border-radius: 180px;
+}
+
+#upload_form {
+	padding: 7px;
+}
+
+#message {
+	font-size: 26px;
+	border: none;
+	width: 400px;
+	height: auto;
+	opacity: 50%;
+	margin-left: auto;
+	margin-right: auto;
+   -webkit-text-stroke-width: 2px;
+   -webkit-text-stroke-color: black;
+
+}
+
+
+#about {
+	margin-left: auto;
+	margin-right: auto;
+
+
+	color: #F5B13D;
+	font-size: 36px;
+
+
+	width: 350px;
+	height: auto;
+	word-wrap: break-word;
+}
+
+#about a:link {
+	font-size: 14px;
+	text-decoration: none;
+	color: #9AD498;
+}
+#about a:hover {
+	font-size: 15px;
+	text-decoration: none;
+	color: #51AD4E;
+}
+
+header {
+	font-size: 36px;
+}
+
+header a:link {
+	text-decoration: none;
+	font-family: 'Diplomata SC', cursive;
+	color: #1C2830;
+
+}
+
+header a:visited {
+	text-decoration: none;
+	font-family: 'Diplomata SC', cursive;
+	color: #113E5C;
+}
+
+header a:active{
+	text-decoration: line-through;
+	font-family: 'Diplomata SC', cursive;
+	color: #1C2830;
+}
+
+header a:hover{
+	text-decoration: none;
+	font-family: 'Diplomata SC', cursive;
+	color: #113E5C;
+}
+
+footer {
+	margin-top: -15px;
+}
+
+footer a:link {
+	text-decoration: none;
+font-family: 'Finger Paint', cursive;
+	color: #113E5C;
+
+}
+
+footer a:visited {
+	text-decoration: none;
+font-family: 'Finger Paint', cursive;
+	color: #024A7A;
+}
+
+footer a:active{
+	text-decoration: line-through;
+font-family: 'Finger Paint', cursive;
+	color: #1C2830;
+}
+
+footer a:hover{
+	text-decoration: none;
+font-family: 'Finger Paint', cursive;
+	color: #1C2830;
+}
+
+
